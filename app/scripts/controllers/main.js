@@ -24,7 +24,7 @@ angular.module('fotutorialApp')
 					crossOrigin: null
 				})
 			],
-			view: new ol.View({
+			view: new ol.View(
 				center: ol.proj.transform([-98.218378, 40.598217], 'EPSG:4326', 'EPSG:3857'),
 				zoom: 5
 			})
